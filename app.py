@@ -32,7 +32,7 @@ st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 
 
-st.title("EVERSANA - Optical Character Recognition")
+st.title("EVERSANA - OCR")
 key_error = None
 
 try:
