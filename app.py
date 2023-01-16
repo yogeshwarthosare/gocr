@@ -230,7 +230,7 @@ if key_error is None:
                 else:
                     pass
             else:
-                st.warning('No text is detected from the image. Please choose another file!')
+                st.warning('No text is detected from the image. Please choose another file with text!')
 
 
 
@@ -269,4 +269,4 @@ if key_error is None:
                     full_text2 = st.text_area('Please make the changes', value= full_text2, height= 500)
                 st.download_button('Download',full_text2)
             else:
-                st.warning('The attachment have no text, Please choose other file!')
+                st.warning('No text is detected from the image. Please choose another file with text!')
